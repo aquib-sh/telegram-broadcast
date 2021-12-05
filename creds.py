@@ -1,6 +1,6 @@
 import json
 
-class Credentials
+class Credentials:
     def __init__(self, filename:str):
         self.__filename = filename
         self.__credentials = json.load(open(filename, "r"))
